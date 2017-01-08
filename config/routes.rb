@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     get 'about', to: 'pages#about'
     get 'poster', to: 'pages#poster'
     get 'cambio', to: 'pages#cambio'
-    get 'IFSB', to: 'pages#IFSB'
+    get 'ifsb', to: 'pages#ifsb'
     get 'zuru', to: 'pages#zuru'
     get 'car', to: 'pages#car'
     get 'adposter', to: 'pages#adposter'

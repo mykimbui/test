@@ -2,45 +2,61 @@
 
   <div class="row row-no-padding">
     <div class="col-xs-12 col-sm-6">
-      <%= image_tag "POSTER.png", {class: "img-responsive"} %>
-      <%= image_tag "POSTER_HOVER.gif", {class: "img-hover img-responsive"} %>
+      <%= link_to poster_path do %>
+        <%= image_tag "POSTER.png", {class: "img-responsive"} %>
+        <%= image_tag "POSTER_HOVER.gif", {class: "img-hover img-responsive"} %>
+      <% end %>
     </div>
   <div class="col-xs-12 col-sm-6">
-      <%= image_tag "CAMBIO.png", {class: "img-responsive"} %>
-      <%= image_tag "CAMBIO_HOVER.gif", {class: "img-hover img-responsive"} %>
+      <%= link_to cambio_path do %>
+        <%= image_tag "CAMBIO.png", {class: "img-responsive"} %>
+        <%= image_tag "CAMBIO_HOVER.gif", {class: "img-hover img-responsive"} %>
+      <% end %>
     </div>
   </div>
 
  <div class="row row-no-padding">
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "IFSB.png", {class: "img-responsive"} %>
-    <%= image_tag "IFSB_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to ifsb_path do %>
+      <%= image_tag "IFSB.png", {class: "img-responsive"} %>
+      <%= image_tag "IFSB_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "ZURU.png", {class: "img-responsive"} %>
-    <%= image_tag "ZURU_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to zuru_path do %>
+      <%= image_tag "ZURU.png", {class: "img-responsive"} %>
+      <%= image_tag "ZURU_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
 </div>
 
  <div class="row row-no-padding">
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "CAR.png", {class: "img-responsive"} %>
-    <%= image_tag "CAR_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to car_path do %>
+      <%= image_tag "CAR.png", {class: "img-responsive"} %>
+      <%= image_tag "CAR_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "ADPOSTER.png", {class: "img-responsive"} %>
-    <%= image_tag "ADIDAS_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to adposter_path do %>
+      <%= image_tag "ADPOSTER.png", {class: "img-responsive"} %>
+      <%= image_tag "ADIDAS_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
 </div>
 
  <div class="row row-no-padding">
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "DAD.png", {class: "img-responsive"} %>
-    <%= image_tag "DAD_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to dad_path do %>
+      <%= image_tag "DAD.png", {class: "img-responsive"} %>
+      <%= image_tag "DAD_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
   <div class="col-xs-12 col-sm-6">
-    <%= image_tag "DHL.png", {class: "img-responsive"} %>
-    <%= image_tag "DHL_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <%= link_to dhl_path do %>
+      <%= image_tag "DHL.png", {class: "img-responsive"} %>
+      <%= image_tag "DHL_HOVER.gif", {class: "img-hover img-responsive"} %>
+    <% end %>
   </div>
 </div>
 </div>

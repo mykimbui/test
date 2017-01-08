@@ -11,7 +11,7 @@ class PagesController < ApplicationController
   def cambio
   end
 
-  def IFSB
+  def ifsb
   end
 
   def zuru
