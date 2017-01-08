@@ -1,3 +1,11 @@
-<div class="text-center">
-  <%= link_to "My Kim Bui", root_path %>
+<div class="navbar navbar-fixed">
+
+  <div class="home-name text-center">
+    <%= link_to "My Kim Bui", root_path %>
+  </div>
+
+  <%= link_to about_path do %>
+    <%= image_tag "ABOUTICON.png", {class: "navbar-right"} %>
+  <% end %>
+
 </div>
