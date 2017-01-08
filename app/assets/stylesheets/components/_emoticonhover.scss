@@ -7,9 +7,31 @@
 }
 
 .next {
-  cursor: url("/images/ARROW.png"), auto;
+  cursor: url("../../images/ARROW.png"), auto;
 }
 
 .egg {
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAEdJREFUeAF90FEKgDAMwFDT+x9awYCRwjL282CM9joFsGie/swYy6oiENW8RaJ5PBvxvCpqxfwetTOqeyo+Rgx3JjnrCxNa3TwuAY6NyoMhAAAAAElFTkSuQmCC), auto;
+}
+
+
+
+.next {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 100vh;
+  right: 0;
+  z-index: 7;
+}
+
+.previous {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 30%;
+  height: 100vh;
+  left: 0;
+  z-index: 7;
 }

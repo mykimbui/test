@@ -19,7 +19,8 @@ gem 'autoprefixer-rails'
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
-  
+  gem 'rails_real_favicon'
+
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
