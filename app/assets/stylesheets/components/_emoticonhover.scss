@@ -3,11 +3,11 @@
 }
 
 .previous {
-  cursor: url("/images/ARROWPREV.png"), auto;
+  cursor: url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_left_48px-48.png"), auto;
 }
 
 .next {
-  cursor: url("../../images/ARROW.png"), auto;
+  cursor: url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_right_48px-48.png"), auto;
 }
 
 .egg {
@@ -21,7 +21,7 @@
   position: absolute;
   bottom: 0;
   width: 30%;
-  height: 100vh;
+  min-height: 100vh;
   right: 0;
   z-index: 7;
 }
@@ -31,7 +31,7 @@
   position: absolute;
   bottom: 0;
   width: 30%;
-  height: 100vh;
+  min-height: 100vh;
   left: 0;
   z-index: 7;
 }

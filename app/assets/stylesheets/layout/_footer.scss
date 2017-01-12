@@ -1,21 +1,58 @@
 // Your footer style
 .footer {
-  height: 175px;
-  background-color: #2E348C;
-  color: white;
-  padding-top: 30px;
+  height: 400px;
+  background-color: #E0E0E0;
+  color: #2E348C;
+  padding: 30px 20px 0px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  padding-top: 80px;
 }
+
+// .description {
+//   padding-top: 50px;
+// }
 
 ul {
   list-style: none;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+li {
+  padding-bottom: 5px;
+  font-weight: 500;
 }
 
 .fav-icon {
-  // padding-top: 60px;
-  // padding-right: 50px;
+  padding-left: 45px;
+  color: #2E348C;
 }
 
 .fa {
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 4px;
   font-size: 20px;
+}
+
+.fav-icon a {
+  color: #2E348C;
+  text-decoration: none;
+}
+
+.fav-icon a:hover {
+  color: #2E348C;
+  text-decoration: none;
+}
+
+.footer h3 {
+  padding: 0 40px 0 40px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+
 }

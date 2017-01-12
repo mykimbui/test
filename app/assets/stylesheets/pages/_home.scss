@@ -2,7 +2,7 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
-.row-no-padding {
+ .row-no-padding {
   margin-left: 0;
   margin-right: 0;
   [class*="col-"] {
@@ -32,5 +32,23 @@
 
 .img-hover:hover {
   opacity: 0.9;
+}
+
+.slide2 {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 400px;
+}
+
+// .slide2 {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   width: 100%;
+// }
+
+body {
+  min-height: 100vh;
 }
 
