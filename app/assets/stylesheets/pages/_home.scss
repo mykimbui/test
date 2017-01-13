@@ -40,15 +40,9 @@
   margin-bottom: 400px;
 }
 
-// .slide2 {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   z-index: 1;
-//   width: 100%;
-// }
-
-body {
+.wrapper {
   min-height: 100vh;
+  height: auto !important;
+  height: 100vh;
+  margin: 0 auto -400px;
 }
-
