@@ -30,7 +30,7 @@
   transition: all 0.2s ease-in;
 }
 
-.img-hover:hover {
+.img-hover:hover .img-hover:focus {
   opacity: 0.9;
 }
 
