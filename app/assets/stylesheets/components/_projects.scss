@@ -19,7 +19,37 @@
   margin: 20px;
 }
 
-.arrows {
-  display: flex;
-  justify-content: space-between;
+// .arrows {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+.fixed {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+}
+
+.mobileshow {
+  display: none;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .mobileshow {
+    display: block;
+  }
+}
+
+.left {
+  left: 0;
+  position: fixed;
+}
+
+.right {
+  right: 0;
+  position: fixed;
+}
+
+.left-margin p {
+  margin: 0px 0px 11px 30px;
 }

@@ -17,12 +17,12 @@
       <div class="col-xs-4">
         <p>Illustration, Art direction, Minimal</p>
       </div>
-      <div class="col-xs-8">
+      <div class="col-xs-8 left-margin">
         <p>Minimalist poster for the movie "Life of Pi"</p>
       </div>
     </div>
 
-    <div class="row row-no-padding">
+    <div class="row row-no-padding row-no-padding">
       <div class="col-xs-12 col-sm-12">
         <%= image_tag "POSTER3.png", {class: "img-responsive"} %>
       </div>
@@ -40,13 +40,13 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row fixed">
       <div class="col-xs-12 col-sm-12 arrows">
         <%= link_to dhl_path do %>
-          <%= image_tag "ARROWPREV.png", {class: "arrow"} %>
+          <%= image_tag "ARROWPREV.png", {class: "arrow left mobileshow"} %>
         <% end %>
         <%= link_to cambio_path do%>
-          <%= image_tag "ARROW.png", {class: "arrow"} %>
+          <%= image_tag "ARROW.png", {class: "arrow right mobileshow"} %>
         <% end %>
       </div>
     </div>

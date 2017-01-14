@@ -10,11 +10,11 @@
     </div>
   </section>
   <section class="content">
-    <div class="row row-space">
+    <div class="row row-no-padding row-space">
       <div class="col-xs-4">
         <p>UI/UX, Mobile application</p>
       </div>
-      <div class="col-xs-8">
+      <div class="col-xs-8 left-margin">
         <p>Redesigning DHL mobile interface to make it more appealing and easier to use. Each additional step will add clearly the price on top of the page.</p>
       </div>
     </div>
@@ -31,13 +31,13 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row fixed">
       <div class="col-xs-12 col-sm-12 arrows">
         <%= link_to dad_path do %>
-          <%= image_tag "ARROWPREV.png", {class: "arrow"} %>
+          <%= image_tag "ARROWPREV.png", {class: "arrow left mobileshow"} %>
         <% end %>
         <%= link_to poster_path do%>
-          <%= image_tag "ARROW.png", {class: "arrow"} %>
+          <%= image_tag "ARROW.png", {class: "arrow right mobileshow"} %>
         <% end %>
       </div>
     </div>
